@@ -8,6 +8,10 @@
     "LICENSE",
     "spinners.css"
   ],
+  "scripts": {
+    "watch-css": "node-sass -w spinners.scss spinners.css --output-style='compressed'",
+    "build-css": "node-sass spinners.scss spinners.css --output-style='compressed'"
+  },
   "repository": "tawian/text-spinners",
   "author": "Maximilian Beier",
   "license": "MIT",
@@ -16,5 +20,8 @@
     "spinners"
   ],
   "bugs": "https://github.com/tawian/text-spinners/issues",
-  "homepage": "http://tawian.io/text-spinners/"
+  "homepage": "http://tawian.io/text-spinners/",
+  "devDependencies": {
+    "node-sass": "^3.10.1"
+  }
 }
