@@ -17,10 +17,6 @@ or
 npm install --save text-spinners
 ```
 
-## Development
-Build the CSS file: `npm run build-css`
-Watch the CSS file (for development): `npm run watch-css`
-
 
 ## Preview
 
